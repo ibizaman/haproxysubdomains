@@ -27,7 +27,7 @@ with _open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
         },
         install_requires=[
             'pyhaproxy == 0.3.6',
-            'PyYAML == 3.12',
+            'PyYAML == 5.4',
         ],
         extras_require={
             'dev': [
